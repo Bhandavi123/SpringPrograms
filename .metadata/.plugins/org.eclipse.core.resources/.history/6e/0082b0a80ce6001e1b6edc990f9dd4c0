@@ -1,0 +1,44 @@
+package com.sathya.springboot;
+
+import com.sathya.springboot.Employee.EmployeeBuilder;
+
+import lombok.Builder;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+  EmployeeBuilder employee=Employee.builder();
+                                    empId(1001);
+                                    empName("bhandavi");
+                                    empSalary(45000.00);
+                                    Build();
+                                    System.out.println(employee);
+                                    
+	}
+
+	private static void Build() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void empSalary(double d) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void empName(String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void empId(int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+		
+	}
+
+

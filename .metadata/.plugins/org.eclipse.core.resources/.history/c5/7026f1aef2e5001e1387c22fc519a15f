@@ -1,0 +1,8 @@
+package com.sathya.springboot;
+
+public class Employee {
+	private int empId;
+	private String empNmae;
+	private double empsalary;
+
+}
